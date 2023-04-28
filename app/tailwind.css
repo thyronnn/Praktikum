@@ -6,12 +6,7 @@ html,
 body {
   @apply min-h-screen w-full;
 }
-body {
-  background-image: url("https://wallpaper.dog/large/10809044.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 .navigation-links {
   @apply text-center hover:animate-pulse hover:animate-bounce rounded-full border-black bg-black font-bold text-white transition transform duration-500 ease-in-out hover:bg-white hover:text-black 
     text-[60px] transform transition duration-500 hover:scale-125;
@@ -29,3 +24,42 @@ body {
   border: 1px solid black;
   opacity: 0.6;
 }
+
+.backgroundmorning {
+  background-image: url("https://wallpapercave.com/wp/wp4491839.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.backgroundnoon {
+  background-image: url("https://images.unsplash.com/photo-1503614472-8c93d56e92ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2611&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.backgroundevening {
+  background-image: url("https://wallpaper.dog/large/10809044.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.backgroundnight {
+  background-image: url("https://wallpapercave.com/wp/wp2038333.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*$function(){
+	const d = new Date();
+	const n = d.getHours();
+	if (n > 19 || n < 6)
+	  // If time is after 7PM or before 6AM, apply night theme to ‘body’
+	  document.body.className = "night";
+	else if (n > 16 && n < 19)
+	  // If time is between 4PM – 7PM sunset theme to ‘body’
+	  document.body.className = "sunset";
+	else
+	  // Else use ‘day’ theme
+	  document.body.className = "day";
+});*/

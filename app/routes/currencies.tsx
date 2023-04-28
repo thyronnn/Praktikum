@@ -1,5 +1,6 @@
 import Buttonn from "~/components/button";
 import Button from "~/components/button";
+import { BsGlobeEuropeAfrica } from "react-icons/bs";
 
 export default function Currencies() {
   return (
@@ -18,7 +19,6 @@ export default function Currencies() {
               <Buttonn to="/asia">ASIA</Buttonn>
               <Buttonn to="/Oceania">OCEANIA</Buttonn>
               <Buttonn to="/africa">AFRICA</Buttonn>
-              <Buttonn to="/mideast">MID.EAST</Buttonn>
 
               <h1 className="values flex w-fcenterull items-center justify-center text-[30px] "></h1>
             </div>
